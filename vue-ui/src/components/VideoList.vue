@@ -83,7 +83,5 @@ a {
   opacity: 0;
 }
 .video-container {
-  width: 200px;
-  height: 200px;
 }
 </style>

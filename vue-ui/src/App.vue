@@ -32,7 +32,6 @@ export default {
 .hero {
   box-sizing: content-box;
   height: 125px;
-  background: url(http://gutiproductions.com/73d35b7c4197e20d46846d9bc06e746c.jpg);
   background-size: cover;
   background-position-y: center;
   background-blend-mode: overlay;
