@@ -11,9 +11,9 @@
           <p class="title">{{post.name}}</p>
           <p class="description">{{post.description}}</p>
           <div class="video-container">
+            <img :src="post.pictures.sizes[2].link" alt="">
             <!-- <span v-html="post.embed.html"></span> -->
           </div>
-          
         </li>
     </ul>
   </div>
