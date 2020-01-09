@@ -13,16 +13,19 @@ const client = new Vimeo(
     "3df94c365f53b164279ba61f7a94e5b3");
 
 app.get('/getVideos', async (req: functions.https.Request, res: functions.Response) => {
-    const getChuckNorrisFact = () => { 
+    const getVideoList = () => { 
         return new Promise((resolve, reject) => { 
-            client.request({ method: 'GET', path: '/users/55472720/videos' }, (error: any, body: any, status_code: any, headers: any) => {
-                if (error) reject(error);
-                resolve(body);
-            });
-        });
+            client.request(
+                { method: 'GET', path: '/users/55472720/videos' }, 
+                (error: any, body: any, status_code: any, headers: any) => {
+                    if (error) reject(error);
+                    resolve(body);
+                });
+            }
+        );
     };
 
-    return getChuckNorrisFact().then((val) => {
+    return getVideoList().then((val) => {
         res.send(val);
     });
 });

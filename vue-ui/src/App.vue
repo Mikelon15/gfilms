@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <div class="hero">
-      <h1>Angel Gutierrez</h1>
-    </div>
     <NavBar/>
     <VideoList/>
   </div>
@@ -28,6 +25,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-family: 'Strait', sans-serif;
 }
 .hero {
   box-sizing: content-box;
