@@ -1,20 +1,12 @@
 <template>
   <div id="app">
-    <NavBar/>
-    <VideoList/>
+    <router-view></router-view>
   </div>
 </template>
-
 <script>
-import VideoList from './components/VideoList.vue';
-import NavBar from './components/NavBar.vue';
 
 export default {
-  name: 'app',
-  components: {
-    VideoList,
-    NavBar
-  }
+  name: 'app'
 }
 </script>
 
@@ -43,4 +35,5 @@ export default {
 body{
   margin: 0px;
 }
+
 </style>

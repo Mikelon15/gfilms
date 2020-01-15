@@ -2,21 +2,21 @@
   <header class="mdc-top-app-bar">
       <div id="topNav" class="mdc-top-app-bar__row">
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-              <a href="index.html" class="mdc-top-app-bar__title">
+              <router-link  to="home" class="mdc-top-app-bar__title">
                 Angel Gutierrez
-              </a>
+              </router-link>
           </section>
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-              <a href="index.html" class="mdc-tab mdc-tab--active">
+              <router-link  to="home" class="mdc-tab mdc-tab--active">
                   <span class="mdc-tab__content">
                       <span class="mdc-tab__text-label">my videos</span>
-                  </span>
+                 </span>
                   <span class="mdc-tab-indicator mdc-tab-indicator--active">
                       <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
                   </span>
                   <span class="mdc-tab__ripple"></span>
-              </a>
-              <a href="about.html" class="mdc-tab">
+              </router-link>
+              <router-link  to="about" class="mdc-tab">
                   <span class="mdc-tab__content">
                       <span class="mdc-tab__text-label">about me</span>
                   </span>
@@ -24,8 +24,8 @@
                       <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
                   </span>
                   <span class="mdc-tab__ripple"></span>
-              </a>
-              <a href="resume.html" class="mdc-tab">
+              </router-link>
+              <router-link  to="resume" class="mdc-tab">
                   <span class="mdc-tab__content">
                       <span class="mdc-tab__text-label">my resume</span>
                   </span>
@@ -33,7 +33,7 @@
                       <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
                   </span>
                   <span class="mdc-tab__ripple"></span>
-              </a>
+              </router-link>
           </section>
       </div>
   </header>
@@ -69,7 +69,6 @@ li {
 
 
 @import "@material/button/mdc-button";
-@import "@material/layout-grid/mdc-layout-grid";
 @import "@material/image-list/mdc-image-list";
 @import "@material/linear-progress/mdc-linear-progress";
 @import "@material/tab-bar/mdc-tab-bar";
