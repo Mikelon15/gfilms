@@ -7,15 +7,18 @@
       </div>
     </transition>
     <div name="fade" v-if="showPosts">
+      <Player v-if="selectedVideo" v-bind:name="selectedVideo"></Player>
       <NavBar />
+      
       <h3>My videos</h3>
       <ul >
           <li class="mdc-image-list__item" v-for="post in posts" v-bind:key="post.uri">
             <p class="title">{{post.name}}</p>
-            <p class="description">{{post.description}}</p>
-            <div class="video-container mdc-image-list__image-aspect-container">
-              <img class="mdc-image-list__image" :src="post.pictures.sizes[2].link" alt="">
-              <div class="mdc-image-list__supporting"><i class="material-icons">play_circle_outline</i></div>
+            <!-- <p class="description">{{post.description}}</p> -->
+            <div class="play-btn" v-on:click="selectVideo(post)">
+              <img :src="post.pictures.sizes[2].link" alt="">
+              <div class="overlay"></div>
+              <i class="material-icons">play_circle_outline</i>
             </div>
           </li>
       </ul>
@@ -64,13 +67,15 @@
 
 <script>
 import NavBar from './NavBar';
+import Player from './Player';
 import videoServices from '../services/videoServices';
 import { setTimeout } from 'timers';
 
 export default {
   name: 'HelloWorld',
   components: {
-      NavBar
+      NavBar,
+      Player
   },
   props: {
     msg: String
@@ -80,6 +85,7 @@ export default {
       isLoading: true,
       hasError: false,
       showPosts: false,
+      selectedVideo: null,
       posts: [],
     };
   },
@@ -100,6 +106,11 @@ export default {
           this.hasError = true;
         }
       })
+    },
+    selectVideo(post) {
+      this.selectedVideo = post.uri.split('/')[2]
+      // eslint-disable-next-line no-console
+      console.log(this.selectedVideo)
     }
   }
 }
@@ -131,13 +142,47 @@ h3 {
 ul {
   list-style-type: none;
   padding: 0;
-  max-width: 400px;
+  // max-width: 400px;
   margin: auto;
 }
 li {
   display: block;
   margin: 0 10px;
 }
+.play-btn {
+  position: relative;
+  display: inline-block;
+
+  >i {
+    display: none;
+  }
+  >.overlay {
+    display: none;
+  }
+}
+
+.play-btn:hover {
+  background-blend-mode: overlay;
+  background: white;
+  cursor: pointer;
+
+  >.overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fffc;
+  }
+  >i {
+    display: inline;
+    position: absolute;
+    top: 60px;
+    left: 130px;
+  }
+}
+
 .title {
   font-weight: bold;
   font-size: 14pt;
@@ -198,9 +243,6 @@ a {
 
 .video-container {
   @include mdc-image-list-aspect($width-height-ratio);
-  // max-width: 300px;
-  // max-height: 300px;
-  // margin: auto;
 }
 
 @media screen {
