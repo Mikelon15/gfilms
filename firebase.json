@@ -10,7 +10,7 @@
     ]
   },
   "hosting": {
-    "public": "./vue-ui/dist",
+    "public": "./gfilms-ui/dist",
     "ignore": [
       "firebase.json",
       "**/.*",

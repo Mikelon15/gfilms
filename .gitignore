@@ -1,9 +1,9 @@
-./vue-ui/node_modules/*
-vue-ui/node_modules/*
-vue-ui/node_modules/
-/vue-ui/node_modules/
+./gfilms-ui/node_modules/*
+gfilms-ui/node_modules/*
+gfilms-ui/node_modules/
+/gfilms-ui/node_modules/
 
-./vue-ui/dist/*
-vue-ui/dist/*
-vue-ui/dist/
-/vue-ui/dist/
+./gfilms-ui/dist/*
+gfilms-ui/dist/*
+gfilms-ui/dist/
+/gfilms-ui/dist/
