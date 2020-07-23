@@ -2,17 +2,16 @@
   <div id="app">
     <nav id="nav">
       <span class="menu material-icons" v-on:click="openNav()">menu</span>
+      <div class="overlay"></div>
       <h2>Angel Gutierrez</h2>
       <ul>
-        <li><a href="">Home</a></li>
+        <li><router-link to="home">Home</router-link></li>
         <hr>
-        <li><a href="">About Me</a></li>
+        <li><router-link to="about">About Me</router-link></li>
         <hr>
-        <li><a href="">Resume</a></li>
+        <li><router-link to="resume">Resume</router-link></li>
       </ul>
     </nav>
-    <h3 class="hero-description">Hi! I'm a video producer in Phoenix, AZ</h3>
-    <img class="hero" src="./assets/hero.png" alt="Angel Gutierrez">
     <router-view/>
   </div>
 </template>
@@ -20,6 +19,11 @@
 <script>
 export default {
   name: 'App',
+  watch: {
+    '$route' (to, from) {
+      this.openNav()
+    }
+  },
   methods: {
     openNav () {
       const el = document.getElementById('nav')
@@ -29,7 +33,6 @@ export default {
       } else {
         el.className += classes + 'open'
       }
-      console.log(classes)
     }
   }
 }
@@ -42,6 +45,7 @@ export default {
   text-align: center;
   font-family: Strait,sans-serif;
   color: #2c3e50;
+  padding: 70px 0 100px 0;
 }
 body {
   margin: 0;
@@ -52,14 +56,18 @@ body {
 nav {
   position: absolute;
   display: flex;
+  top: 0;
   width: 100%;
   background-color: white;
   z-index: 100;
   justify-content: flex-start;
 }
+nav .overlay {
+  display: none;
+}
 nav .menu {
   margin: auto;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-right: 0px;
   font-size: 2.5em;
   z-index: 100;
@@ -68,7 +76,7 @@ nav .menu:hover {
   cursor: pointer;
 }
 h2 {
-  width: calc(100% - 120px);
+  width: calc(100% - 110px);
   font-size: 2em;
 }
 nav ul {
@@ -104,18 +112,13 @@ nav.open ul {
   border-radius: 0 0 5px 5px;
   background-color: white;
 }
-.hero {
-  height: 100vh;
-  width: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-.hero-description {
-  position: absolute;
-  top: 80px;
-  width: 100%;
-  font-size: 1.5em;
-  box-sizing: border-box;
-  padding: 10px 15px;
+nav.open .overlay {
+  position: fixed;
+  display: block;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #00000040;
 }
 </style>

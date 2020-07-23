@@ -13,7 +13,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@vimeo/player": "^2.12.2",
     "axios": "^0.19.2",
+    "body-scroll-lock": "^3.0.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
