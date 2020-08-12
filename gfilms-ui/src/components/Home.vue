@@ -188,7 +188,12 @@ p {
   background-color: rgba(15, 15, 15, .97);
   z-index: 1000;
   overflow: hidden;
+}
+.horizontal {
   padding: 15% 25px;
+}
+.vertical {
+  padding: 3% 25px;
 }
 .locked {
   overflow: hidden;
