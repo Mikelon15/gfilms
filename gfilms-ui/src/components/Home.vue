@@ -5,7 +5,7 @@
 
     <h3>My videos</h3>
     <ul class="video-list-container" v-bind:class="{ 'locked': selectedVideo}">
-      <li class="mdc-image-list__item" v-for="post in posts" v-bind:key="post.uri">
+      <li class="video-list" v-for="post in posts" v-bind:key="post.uri">
         <p class="title">{{post.name}}</p>
         <div class="video-container" v-on:click="selectVideo(post)">
           <img :src="post.pictures.sizes[2].link" alt="">
@@ -199,4 +199,26 @@ p {
   overflow: hidden;
   overflow: hidden;
 }
+@media (min-width: 750px) {
+  li {
+    width: 40%;
+    display: inline-block;
+    padding: 4%;
+  }
+}
+@media (min-width: 750px) {
+  li.video-list {
+    width: 46%;
+    display: inline-block;
+    padding: 1%;
+  }
+}
+@media (min-width: 1200px) {
+  li.video-list {
+    width: 30%;
+    display: inline-block;
+    padding: 1%;
+  }
+}
+
 </style>
