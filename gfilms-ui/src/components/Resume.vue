@@ -61,5 +61,7 @@ export default {
 <style scoped>
 .resume-container {
   padding: 15px 15px 100px;
+  max-width: 1000px;
+  margin: auto;
 }
 </style>

@@ -1,7 +1,14 @@
 <template>
   <div id="home-container" class="hello">
+    <div class="loading" v-if="isLoading"><img class="loading-img" src="./../assets/loading.svg" alt="loading"></div>
     <h2 class="hero-description">Hi! I'm a video producer in Phoenix, AZ</h2>
-    <img class="hero" src="./../assets/hero-high.jpeg" alt="Angel Gutierrez">
+    <picture>
+      <source media="(max-width: 1200px)" type="image/webp" srcset="./../assets/hero-1200.webp">
+      <source media="(max-width: 1200px)" type="image/jp2" srcset="./../assets/hero-1200.jp2">
+      <source media="(min-width: 1600px)" type="image/webp" srcset="./../assets/hero-1600.webp">
+      <source media="(min-width: 1600px)" type="image/jp2" srcset="./../assets/hero-1600.jp2">
+      <img class="hero" src="./../assets/hero-high.jpeg" alt="Angel Gutierrez">
+    </picture>
 
     <h3>My videos</h3>
     <ul class="video-list-container" v-bind:class="{ 'locked': selectedVideo}">
@@ -9,6 +16,7 @@
         <p class="title">{{post.name}}</p>
         <div class="video-container" v-on:click="selectVideo(post)">
           <img :src="post.pictures.sizes[2].link" alt="">
+
           <div class="overlay">
             <p> {{post.description}} </p>
           </div>
@@ -29,7 +37,6 @@ import videoServices from '../services/videoServices'
 import Player from './Player'
 import { setTimeout } from 'timers'
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
-
 export default {
   name: 'Home',
   components: {
@@ -56,10 +63,12 @@ export default {
       this.isLoading = true
       videoServices.getAll().then((val) => {
         if (val && val.data && val.data.data) {
-          this.isLoading = false
           setTimeout(() => {
             this.showPosts = true
             this.posts = val.data.data
+            setTimeout(() => { this.isLoading = false }, 200)
+            const el = document.getElementsByClassName('loading')[0]
+            el.className = el.className + ' hide'
           }, 1000)
         } else {
           this.hasError = true
@@ -199,6 +208,35 @@ p {
   overflow: hidden;
   overflow: hidden;
 }
+.loading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  z-index: 1000;
+}
+
+.loading-img {
+  width: 25%;
+  max-width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.loading.hide {
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-out;
+  -moz-transition: opacity 150ms ease-out;
+  -o-transition: opacity 150ms ease-out;
+  transition: opacity 150ms ease-out;
+}
+
 @media (min-width: 750px) {
   li {
     width: 40%;

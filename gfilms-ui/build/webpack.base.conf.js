@@ -34,7 +34,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      '@': resolve('src'),
+      '@': resolve('src')
     }
   },
   module: {
@@ -51,10 +51,11 @@ module.exports = {
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {
-        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-        loader: 'url-loader',
+        test: /\.(png|jpe?g|gif|svg|webp|jp2)(\?.*)?$/,
+        loader: 'file-loader',
         options: {
-          limit: 10000,
+          loader: 'image-webpack-loader',
+          // limit: 10000,
           name: utils.assetsPath('img/[name].[hash:7].[ext]')
         }
       },

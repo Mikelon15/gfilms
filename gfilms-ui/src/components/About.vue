@@ -50,7 +50,9 @@ export default {
 </script>
 <style scoped>
 .about-text-container {
-  padding: 15px 15px 0px 15px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 15px 0px 15px;
 }
 
 .profile {
