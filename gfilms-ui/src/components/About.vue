@@ -26,7 +26,7 @@
         </h3>
 
     </div>
-    <img class="profile" src="../assets/hero-high.jpeg" alt="" style="padding-top: 100px;">
+    <img class="profile" src="../assets/hero-high.jpeg" alt="">
   </div>
 </template>
 
@@ -52,11 +52,13 @@ export default {
 .about-text-container {
   max-width: 1000px;
   margin: auto;
-  padding: 60px 15px 0px 15px;
+  padding: 100px 15px 0px 15px;
+  z-index: 10;
 }
 
 .profile {
   width: 100%;
+  z-index: 0;
 }
 
 </style>

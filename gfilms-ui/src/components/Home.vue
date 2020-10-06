@@ -37,6 +37,7 @@ import videoServices from '../services/videoServices'
 import Player from './Player'
 import { setTimeout } from 'timers'
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
+
 export default {
   name: 'Home',
   components: {
@@ -61,12 +62,16 @@ export default {
   methods: {
     async fetch () {
       this.isLoading = true
+      disableBodyScroll(document.body)
       videoServices.getAll().then((val) => {
         if (val && val.data && val.data.data) {
           setTimeout(() => {
             this.showPosts = true
             this.posts = val.data.data
-            setTimeout(() => { this.isLoading = false }, 200)
+            setTimeout(() => {
+              enableBodyScroll(document.body)
+              this.isLoading = false
+            }, 200)
             const el = document.getElementsByClassName('loading')[0]
             el.className = el.className + ' hide'
           }, 1000)

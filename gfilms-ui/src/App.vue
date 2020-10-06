@@ -91,7 +91,7 @@ export default {
   text-align: center;
   font-family: Strait,sans-serif;
   color: #2c3e50;
-  padding: 70px 0 100px 0;
+  padding: 70px 0 300px 0;
 }
 body {
   margin: 0;
