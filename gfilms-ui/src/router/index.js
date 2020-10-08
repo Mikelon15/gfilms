@@ -29,5 +29,12 @@ export default new Router({
       name: 'resume',
       component: Resume
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
