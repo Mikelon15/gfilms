@@ -12,14 +12,19 @@
 
     <h3>My videos</h3>
     <ul class="video-list-container" v-bind:class="{ 'locked': selectedVideo}">
+        <li class="video-list" v-for="videos in youtubeVideos" v-bind:key="videos.snippet.thumbnails.standard.url">
+        <p class="title">{{videos.snippet.title}}</p>
+        <div class="video-container" v-on:click="selectVideo(post)">
+              <img :src="videos.snippet.thumbnails.standard.url" alt="">
+              <div class="overlay"> <p> {{videos.snippet.description}} </p> </div>
+              <i class="play material-icons">play_circle_outline</i>
+        </div>
+      </li>
       <li class="video-list" v-for="post in posts" v-bind:key="post.uri">
         <p class="title">{{post.name}}</p>
         <div class="video-container" v-on:click="selectVideo(post)">
           <img :src="post.pictures.sizes[2].link" alt="">
-
-          <div class="overlay">
-            <p> {{post.description}} </p>
-          </div>
+          <div class="overlay"> <p> {{post.description}} </p> </div>
           <i class="play material-icons">play_circle_outline</i>
         </div>
       </li>
@@ -53,6 +58,7 @@ export default {
       showPosts: true,
       selectedVideo: null,
       posts: [],
+      youtubeVideos: [],
       image: '@/assets/logo.png'
     }
   },
@@ -63,7 +69,13 @@ export default {
     async fetch () {
       this.isLoading = true
       disableBodyScroll(document.body)
-      videoServices.getAll().then((val) => {
+      this.loadVimeoVids()
+      videoServices.getYoutubeVideos().then((val) => {
+        this.youtubeVideos = val.data.items
+      })
+    },
+    loadVimeoVids () {
+      videoServices.getVimeoVideos().then((val) => {
         if (val && val.data && val.data.data) {
           setTimeout(() => {
             this.showPosts = true
