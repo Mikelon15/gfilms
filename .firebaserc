@@ -1,0 +1,17 @@
+{
+  "targets": {
+    "gutiproduction-5a606": {
+      "hosting": {
+        "admin": [
+          "admin-d56c9"
+        ],
+        "public": [
+          "gutiproduction-5a606"
+        ],
+        "timetomycutie": [
+          "timetomycutie"
+        ]
+      }
+    }
+  }
+}
