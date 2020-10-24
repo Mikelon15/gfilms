@@ -69,7 +69,7 @@
 import { Vue } from 'vue-class-component'
 import videoServices from '../services/videoServices'
 // import vimeoData from '../services/sample-data/vimeo.dev.json'
-// import youtubeData from '../services/sample-data/youtube.dev.json'
+import youtubeData from '../services/sample-data/youtube.dev.json'
 
 export default class HelloWorld extends Vue {
   vimeoVideos: any = []
@@ -93,24 +93,23 @@ export default class HelloWorld extends Vue {
     videoServices.getResume().then((val: any) => { this.resumeText = val.data.value })
     videoServices.getVideos().then((val: any) => {
       this.videos = val.data
-      videoServices.getYoutubeVideos().then((val: any) => {
-        this.youtubeVideos = val.data.items
-      })
+      this.youtubeVideos = youtubeData.items
+      // videoServices.getYoutubeVideos().then((val: any) => {
+      //   this.youtubeVideos = val.data.items
+      // })
 
+      // this.vimeoVideos = vimeoData.data
       videoServices.getVimeoVideos().then((val: any) => {
         if (val && val.data && val.data.data) {
           this.vimeoVideos = val.data.data
+          this.vimeoVideos.map((v: any) => {
+            v.added = false
+            this.videos.map((added: any) => {
+              if (added.id === v.uri.split('/videos/')[1]) v.added = true
+            })
+          })
         }
       })
-      // this.vimeoVideos = vimeoData.data
-      this.vimeoVideos.map((v: any) => {
-        v.added = false
-        this.videos.map((added: any) => {
-          if (added.id === v.uri.split('/videos/')[1]) v.added = true
-        })
-      })
-      this.youtubeVideos = null
-      // this.youtubeVideos = youtubeData.items
       this.youtubeVideos.map((v: any) => {
         v.added = false
         this.videos.map((added: any) => {
