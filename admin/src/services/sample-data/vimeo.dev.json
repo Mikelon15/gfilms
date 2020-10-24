@@ -1,0 +1,3737 @@
+{
+  "total": 11,
+  "page": 1,
+  "per_page": 25,
+  "paging": {
+    "next": null,
+    "previous": null,
+    "first": "/users/55472720/videos?page=1",
+    "last": "/users/55472720/videos?page=1"
+  },
+  "data": [
+    {
+      "uri": "/videos/320984706",
+      "name": "Lupe and Nick's Wedding",
+      "description": "I had the amazing opportunity to be able to Lupe and Nick's beautiful wedding. I recorded their wedding and edited this.",
+      "type": "video",
+      "link": "https://vimeo.com/320984706",
+      "duration": 208,
+      "width": 1920,
+      "language": null,
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/320984706?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Lupe and Nick&amp;#039;s Wedding\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2019-03-02T21:50:16+00:00",
+      "modified_time": "2020-10-15T19:41:16+00:00",
+      "release_time": "2019-03-02T21:50:16+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/320984706/pictures/764021011",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/764021011_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/764021011_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/764021011_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/764021011_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/764021011_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/764021011_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/764021011_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/764021011_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/764021011_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/764021011_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F764021011_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "4b189b936777014ee0d0740a3f831caddce47322",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/320984706/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/320984706/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/320984706/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/320984706/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/320984706/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=1",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/320984706/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/320984706/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "1ba945b575770ad4741f70bb0f3eea2fa772d708",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/306293845",
+      "name": "Soccer at the Valley Y",
+      "description": null,
+      "type": "video",
+      "link": "https://vimeo.com/306293845",
+      "duration": 40,
+      "width": 1920,
+      "language": "en",
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/306293845?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Soccer at the Valley Y\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2018-12-13T23:51:44+00:00",
+      "modified_time": "2020-10-15T21:13:51+00:00",
+      "release_time": "2018-12-13T23:51:44+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/306293845/pictures/746006160",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/746006160_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/746006160_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/746006160_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/746006160_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/746006160_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746006160_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746006160_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746006160_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746006160_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746006160_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746006160_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "c84c2eb95ddeb7533ff04c30621d382ad4931b9d",
+        "default_picture": false
+      },
+      "tags": [
+        {
+          "uri": "/tags/soccer",
+          "name": "Soccer",
+          "tag": "Soccer",
+          "canonical": "soccer",
+          "metadata": {
+            "connections": {
+              "videos": {
+                "uri": "/tags/soccer/videos",
+                "options": ["GET"],
+                "total": 61060
+              }
+            }
+          },
+          "resource_key": "71f920eec7f06cdc49fafd9c4a7c4d521cba6ded"
+        },
+        {
+          "uri": "/tags/ymca",
+          "name": "YMCA",
+          "tag": "YMCA",
+          "canonical": "ymca",
+          "metadata": {
+            "connections": {
+              "videos": {
+                "uri": "/tags/ymca/videos",
+                "options": ["GET"],
+                "total": 4235
+              }
+            }
+          },
+          "resource_key": "d93270012295dd112a72794271f1ce4a74d043a1"
+        },
+        {
+          "uri": "/tags/children",
+          "name": "Children",
+          "tag": "Children",
+          "canonical": "children",
+          "metadata": {
+            "connections": {
+              "videos": {
+                "uri": "/tags/children/videos",
+                "options": ["GET"],
+                "total": 102630
+              }
+            }
+          },
+          "resource_key": "c860798cd2922f5df6b154fe37c15d6352e46ba8"
+        }
+      ],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/306293845/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/306293845/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/306293845/likes",
+            "options": ["GET"],
+            "total": 1
+          },
+          "pictures": {
+            "uri": "/videos/306293845/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/306293845/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=2",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/306293845/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/306293845/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "7fc01abbc8355a034c8b5aa93c7bce6373ed015b",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/297595167",
+      "name": "Become a Water Watcher",
+      "description": null,
+      "type": "video",
+      "link": "https://vimeo.com/297595167",
+      "duration": 40,
+      "width": 1920,
+      "language": "en",
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/297595167?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Become a Water Watcher\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2018-10-28T19:12:35+00:00",
+      "modified_time": "2020-10-15T21:13:51+00:00",
+      "release_time": "2018-10-28T19:12:35+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/297595167/pictures/746382714",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/746382714_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/746382714_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/746382714_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/746382714_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/746382714_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382714_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382714_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382714_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382714_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382714_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382714_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "2162fe0fcdf86249f58ef97035b9c9c8ba74a693",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/297595167/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/297595167/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/297595167/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/297595167/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/297595167/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=3",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/297595167/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/297595167/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "74e3c84540ee94581df0429abba5d624e8892762",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/297595106",
+      "name": "Day Care at the Valley YMCA",
+      "description": "Your child at the Y is not an enrollment. They are a face. They are a heart. The Valley of the Sun Y is committed to ensuring your child is able to grow here.",
+      "type": "video",
+      "link": "https://vimeo.com/297595106",
+      "duration": 45,
+      "width": 1920,
+      "language": "en-US",
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/297595106?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Day Care at the Valley YMCA\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2018-10-28T19:12:03+00:00",
+      "modified_time": "2020-08-16T18:46:26+00:00",
+      "release_time": "2018-10-28T19:12:03+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/297595106/pictures/746383162",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/746383162_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/746383162_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/746383162_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/746383162_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/746383162_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746383162_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746383162_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746383162_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746383162_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746383162_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746383162_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "1287a30f097a704cb0129c68d7883493a1c1c796",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/297595106/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/297595106/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/297595106/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/297595106/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/297595106/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=4",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/297595106/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/297595106/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "4d6fe3e2bceb6c6f4fb68ae9cb1a9e6b4551f73a",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/297594495",
+      "name": "Basketball    at the YMCA",
+      "description": null,
+      "type": "video",
+      "link": "https://vimeo.com/297594495",
+      "duration": 46,
+      "width": 1920,
+      "language": "en",
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/297594495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Basketball    at the YMCA\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2018-10-28T19:05:28+00:00",
+      "modified_time": "2020-10-14T01:59:25+00:00",
+      "release_time": "2018-10-28T19:05:28+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/297594495/pictures/735311778",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/735311778_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/735311778_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/735311778_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/735311778_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/735311778_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/735311778_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/735311778_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/735311778_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/735311778_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/735311778_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F735311778_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "30a53cea48f66244f203b857af02852830ca4e74",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/297594495/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/297594495/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/297594495/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/297594495/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/297594495/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=5",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/297594495/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/297594495/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "99508ec536d9f2f61a7ed6f1a792981bae1ec33c",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/290168576",
+      "name": "The Color of Shame",
+      "description": "Many thanks to my family for helping me create this video. I wanted to tackle an issue that I have dealt with and am sure many minorities have felt too.  \n\nMusic: Aves vuela Asi by Cyan and Going Under by Dexter Britain",
+      "type": "video",
+      "link": "https://vimeo.com/290168576",
+      "duration": 123,
+      "width": 1280,
+      "language": null,
+      "height": 720,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/290168576?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"The Color of Shame\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2018-09-16T19:35:46+00:00",
+      "modified_time": "2020-07-14T13:46:35+00:00",
+      "release_time": "2018-09-16T19:35:46+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/290168576/pictures/725974190",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/725974190_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/725974190_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/725974190_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/725974190_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/725974190_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/725974190_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/725974190_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/725974190_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/725974190_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F725974190_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "b790585e3cf28b3892895aae1b2c7f6915e910b6",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/290168576/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/290168576/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/290168576/likes",
+            "options": ["GET"],
+            "total": 1
+          },
+          "pictures": {
+            "uri": "/videos/290168576/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/290168576/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=6",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/290168576/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/290168576/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "901ef59169084bc78d452d03d848f583f4f57a17",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/219431388",
+      "name": "Suman - YMCA Triangle Awards",
+      "description": "A video made by me, Angel Gutierrez, and Jesus Ceja for the Valley of the Sun YMCA Triangle Awards",
+      "type": "video",
+      "link": "https://vimeo.com/219431388",
+      "duration": 105,
+      "width": 1920,
+      "language": null,
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/219431388?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Suman - YMCA Triangle Awards\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2017-05-29T21:40:31+00:00",
+      "modified_time": "2020-08-16T21:46:21+00:00",
+      "release_time": "2017-05-29T21:40:31+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/219431388/pictures/732420998",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/732420998_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/732420998_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/732420998_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/732420998_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/732420998_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/732420998_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/732420998_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/732420998_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/732420998_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/732420998_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F732420998_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "83258e42b3826cd739b7dd5c69b69a2dfe32d283",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/219431388/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/219431388/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/219431388/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/219431388/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/219431388/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=7",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/219431388/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/219431388/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "d754f2ace8cc0ddac2943b89f689f82d0cb86b18",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/212320366",
+      "name": "Unintended Offenses",
+      "description": "Prepro:https://drive.google.com/a/brophybroncos.org/file/d/0B1fre-5HJsMJbTJvV2FzMXVMNk0/view?usp=drivesdk",
+      "type": "video",
+      "link": "https://vimeo.com/212320366",
+      "duration": 56,
+      "width": 1280,
+      "language": null,
+      "height": 720,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/212320366?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Unintended Offenses\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2017-04-07T21:01:41+00:00",
+      "modified_time": "2020-08-16T19:16:12+00:00",
+      "release_time": "2017-04-07T21:01:41+00:00",
+      "content_rating": ["unrated"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/212320366/pictures/731332938",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/731332938_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/731332938_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/731332938_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/731332938_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/731332938_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/731332938_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/731332938_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/731332938_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/731332938_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731332938_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "f85dd2e3000a629bc08e1eda5260ab481f8afe29",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/212320366/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/212320366/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/212320366/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/212320366/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/212320366/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=8",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/212320366/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/212320366/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": { "name": "Parallel Uploader", "uri": "/apps/87099" },
+      "status": "available",
+      "resource_key": "d29001c2d82475854629280bbc8203a4f4aabc35",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/205997233",
+      "name": "Destruction Anew",
+      "description": "Me trying animation!",
+      "type": "video",
+      "link": "https://vimeo.com/205997233",
+      "duration": 43,
+      "width": 1280,
+      "language": "en",
+      "height": 720,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/205997233?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Destruction Anew\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2017-02-28T03:46:13+00:00",
+      "modified_time": "2019-05-22T21:36:06+00:00",
+      "release_time": "2017-02-28T03:46:13+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/205997233/pictures/620904605",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/620904605_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/620904605_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/620904605_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/620904605_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/620904605_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/620904605_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/620904605_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/620904605_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/620904605_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F620904605_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "5932934f19e15fc561fba56484dfdb4c7a5b21d3",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/205997233/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/205997233/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/205997233/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/205997233/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/205997233/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=9",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/205997233/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/205997233/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": null,
+      "status": "available",
+      "resource_key": "15b43928176cd44405d72fa3ffb951fc34ae1c6c",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/192168791",
+      "name": "Vista College Prep- Transforming Lives",
+      "description": "A video on Vista College Preparatory by Jesus Ceja and Angel Gutierrez\nMany thanks to Mr. Sam Shapiro for allowing this project to be done",
+      "type": "video",
+      "link": "https://vimeo.com/192168791",
+      "duration": 108,
+      "width": 1920,
+      "language": "en-US",
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/192168791?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"Vista College Prep- Transforming Lives\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2016-11-18T19:00:17+00:00",
+      "modified_time": "2019-10-10T17:48:31+00:00",
+      "release_time": "2016-11-18T19:00:17+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/192168791/pictures/731333844",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/731333844_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/731333844_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/731333844_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/731333844_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/731333844_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/731333844_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/731333844_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/731333844_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/731333844_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/731333844_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F731333844_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "47420da58d5def7e808ec48fc1b03a5430fe8dfd",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/192168791/comments",
+            "options": ["GET"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/192168791/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/192168791/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/192168791/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/192168791/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": {
+            "uri": "/users/55472720/videos?offset=10",
+            "options": ["GET"]
+          },
+          "recommendations": {
+            "uri": "/videos/192168791/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/192168791/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": null,
+      "status": "available",
+      "resource_key": "a0032f6e01f4b275df189d6335ebf22ac7cd5642",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    },
+    {
+      "uri": "/videos/187236243",
+      "name": "The Superficiality in Our Friendships",
+      "description": "Preproduction: https://docs.google.com/document/d/1S9YBeeYPOky3MEzz-LCcqD5agpiSOreanHvqZ7hStkc \nMusic: April in Amsterdam by The Family Simpson",
+      "type": "video",
+      "link": "https://vimeo.com/187236243",
+      "duration": 161,
+      "width": 1920,
+      "language": "en-US",
+      "height": 1080,
+      "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/187236243?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=149383\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen title=\"The Superficiality in Our Friendships\"></iframe>",
+        "badges": {
+          "hdr": false,
+          "live": { "streaming": false, "archived": false },
+          "staff_pick": {
+            "normal": false,
+            "best_of_the_month": false,
+            "best_of_the_year": false,
+            "premiere": false
+          },
+          "vod": false,
+          "weekend_challenge": false
+        }
+      },
+      "created_time": "2016-10-13T19:44:04+00:00",
+      "modified_time": "2019-04-13T08:04:45+00:00",
+      "release_time": "2016-10-13T19:44:04+00:00",
+      "content_rating": ["safe"],
+      "license": null,
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/187236243/pictures/746382576",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/746382576_100x75.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/746382576_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/746382576_295x166.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/746382576_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/746382576_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382576_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382576_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382576_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382576_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/746382576_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F746382576_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "8f0e21ef595fa98811d80d43ec31c1ded27885b7",
+        "default_picture": false
+      },
+      "tags": [],
+      "stats": { "plays": null },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/187236243/comments",
+            "options": ["GET"],
+            "total": 1
+          },
+          "credits": {
+            "uri": "/videos/187236243/credits",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/videos/187236243/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/187236243/pictures",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "texttracks": {
+            "uri": "/videos/187236243/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": null,
+          "recommendations": {
+            "uri": "/videos/187236243/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "report": {
+            "uri": "/videos/187236243/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "ripoff",
+              "incorrect rating",
+              "spam",
+              "causes harm",
+              "csam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/55472720",
+        "name": "Angel Gutierrez",
+        "link": "https://vimeo.com/agutierrez18",
+        "location": "Phoenix, Arizona",
+        "gender": "",
+        "bio": "Since first picking up a camera, I have been in love with creating and telling stories. Currently I am making ads for companies such as the YMCA and Chicanos por la Causa. I hope, however, to be able to delve into the creative side of film further into the future. My website is:\n\nGutiproductions.com\n\nIf anyone in Phoenix is looking for a video, don't hesitate to contact me.",
+        "short_bio": "My name is Angel Gutierrez, and I have been creating videos and short films for almost three years.",
+        "created_time": "2016-08-14T18:32:24+00:00",
+        "pictures": {
+          "uri": "/users/55472720/pictures/26663628",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/26663628_30x30"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/26663628_72x72"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/26663628_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/26663628_100x100"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/26663628_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/26663628_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/26663628_288x288"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/26663628_300x300"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/26663628_360x360"
+            }
+          ],
+          "resource_key": "6683fa78c46a344e19c5e6fc60e80f43e3e3bfad",
+          "default_picture": false
+        },
+        "websites": [
+          {
+            "uri": "/users/55472720/links/6271715",
+            "name": "Personal Website",
+            "link": "http://GutiProductions.com",
+            "type": "link",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/55472720/albums",
+              "options": ["GET"],
+              "total": 1
+            },
+            "appearances": {
+              "uri": "/users/55472720/appearances",
+              "options": ["GET"],
+              "total": 1
+            },
+            "channels": {
+              "uri": "/users/55472720/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": { "uri": "/users/55472720/feed", "options": ["GET"] },
+            "followers": {
+              "uri": "/users/55472720/followers",
+              "options": ["GET"],
+              "total": 4
+            },
+            "following": {
+              "uri": "/users/55472720/following",
+              "options": ["GET"],
+              "total": 3
+            },
+            "groups": {
+              "uri": "/users/55472720/groups",
+              "options": ["GET"],
+              "total": 1
+            },
+            "likes": {
+              "uri": "/users/55472720/likes",
+              "options": ["GET"],
+              "total": 3
+            },
+            "membership": {
+              "uri": "/users/55472720/membership/",
+              "options": ["PATCH"]
+            },
+            "moderated_channels": {
+              "uri": "/users/55472720/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 0
+            },
+            "portfolios": {
+              "uri": "/users/55472720/portfolios",
+              "options": ["GET"],
+              "total": 0
+            },
+            "videos": {
+              "uri": "/users/55472720/videos",
+              "options": ["GET"],
+              "total": 11
+            },
+            "shared": {
+              "uri": "/users/55472720/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/55472720/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "folders_root": {
+              "uri": "/users/55472720/folders/root",
+              "options": ["GET"]
+            },
+            "teams": {
+              "uri": "/users/55472720/teams",
+              "options": ["GET"],
+              "total": 1
+            }
+          }
+        },
+        "location_details": {
+          "formatted_address": "Phoenix, Arizona",
+          "latitude": null,
+          "longitude": null,
+          "city": null,
+          "state": null,
+          "neighborhood": null,
+          "sub_locality": null,
+          "state_iso_code": null,
+          "country": null,
+          "country_iso_code": null
+        },
+        "skills": [],
+        "available_for_hire": false,
+        "can_work_remotely": false,
+        "resource_key": "2c2159cb0cf414862af87905272f4c2951245d10",
+        "account": "basic"
+      },
+      "app": null,
+      "status": "available",
+      "resource_key": "a8072cc12b9292295d6525f91dcb760c12f2e6f7",
+      "upload": null,
+      "transcode": null,
+      "is_playable": true
+    }
+  ]
+}
