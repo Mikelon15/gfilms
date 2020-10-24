@@ -9,13 +9,13 @@
 
       <!-- display added videos -->
       <ul>
-        <li v-for="video in videos" v-bind:key="video.uri">
-          <button v-on:click="removeVideo(video)">remove</button>
+        <li class="video-list" v-for="video in videos" v-bind:key="video.uri">
+          <button class="remove" v-on:click="removeVideo(video)">remove</button>
           <span class="title">{{video.name}}</span>
           <div class="video-container">
             <img v-if="video.type === 'vimeo'" :src="video.pictures.sizes[2].link" alt="">
             <img v-if="video.type === 'youtube'" :src="video.pictures.medium.url" alt="">
-            <p style="width: 250px;"> {{video.description}} </p>
+            <p> {{video.description}} </p>
           </div>
         </li>
       </ul>
@@ -202,6 +202,7 @@ export default class HelloWorld extends Vue {
   border: solid black 1px;
   margin: 5px;
   padding: 5px;
+  background-color: rgb(245, 245, 245);
 }
 .added {
   color: green;
@@ -228,6 +229,17 @@ button {
   border-radius: 3px;
   margin: 3px;
 }
+button:hover {
+  cursor: pointer;
+}
+button.remove {
+  border-color: darkred;
+  border-width: 2px;
+  background-color: darkred;
+  font-weight: bolder;
+  color: white;
+}
+
 .pageButton {
   border-top: none;
   border-left: none;
@@ -235,10 +247,15 @@ button {
   padding: 10px 5px;
   margin: 15px 5px;
 }
+
+.editing {
+  padding-top: 75px;
+}
+
 .editing textarea {
   width: 85%;
   min-width: 500px;
   height: 50vh;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 </style>
