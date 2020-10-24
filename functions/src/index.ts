@@ -42,17 +42,14 @@ app.get('/getYoutubeVideos', async (req: functions.https.Request, res: functions
             .then((val: any) => {
                 let videos = ``;
                 val.data.items.forEach((i: any) => {
-                    console.log(i);
-                    if (i.id.kind.includes('video')) {
-                        videos += `&id=${i.id.videoId}`
-                    }
+                    if (i.id.kind.includes('video')) videos += `&id=${i.id.videoId}`
                 });
-                axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer${videos}&key=${key}`)
-                .then((vids: any) => {
-                    resolve(vids.data)
-                });
-            });
 
+                axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cplayer${videos}&key=${key}`).then((vids: any) => {
+                    resolve(vids.data)
+                }).catch((err: any) => resolve(err.error.message));
+
+            }).catch((err: any) => resolve(err.error.message));
         });
     };
     
@@ -100,7 +97,7 @@ app.post('/videos', async (req: functions.https.Request, res: functions.Response
     });
 });
 
-app.delete('/videos', async (req: functions.https.Request, res: functions.Response) => {
+app.delete('/videos', async (req: functions.Request, res: functions.Response) => {
     if (!req || !req.body || !req.body.id) {
         res.status(400).send('ID was not passed in body');
         return;
@@ -118,6 +115,30 @@ app.delete('/videos', async (req: functions.https.Request, res: functions.Respon
         videos.list = newList;
     
         return videosRef.update(videos).then(() => res.send('success'));
+    });
+});
+
+app.put('/resume', async (req: functions.https.Request, res: functions.Response) => {
+    const resume = req.body;
+    return db.collection('content').doc('resume').update(resume).then(() => res.send('success'));
+});
+
+app.put('/aboutme', async (req: functions.https.Request, res: functions.Response) => {
+    const resume = req.body;
+    return db.collection('content').doc('aboutme').update(resume).then(() => res.send('success'));
+});
+
+app.get('/resume', async (req: functions.https.Request, res: functions.Response) => {
+    return db.collection('content').doc('resume').get().then((val: any) => {
+        console.log(val.data())
+        res.send(val.data())
+    });
+});
+
+app.get('/aboutme', async (req: functions.https.Request, res: functions.Response) => {
+    return db.collection('content').doc('aboutme').get().then((val: any) => {
+        console.log(val.data())
+        res.send(val.data())
     });
 });
 
