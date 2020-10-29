@@ -124,8 +124,8 @@ app.put('/resume', async (req: functions.https.Request, res: functions.Response)
 });
 
 app.put('/aboutme', async (req: functions.https.Request, res: functions.Response) => {
-    const resume = req.body;
-    return db.collection('content').doc('aboutme').update(resume).then(() => res.send('success'));
+    const aboutme = req.body;
+    return db.collection('content').doc('aboutme').update(aboutme).then(() => res.send('success'));
 });
 
 app.get('/resume', async (req: functions.https.Request, res: functions.Response) => {

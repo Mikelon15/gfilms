@@ -34,6 +34,7 @@
 
 <script>
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
+
 export default {
   name: 'App',
   watch: {
@@ -45,7 +46,9 @@ export default {
     return {
       posLast: 0,
       direction: '',
-      posDirection: ''
+      posDirection: '',
+      aboutmeText: '',
+      resumeText: ''
     }
   },
   mounted () {

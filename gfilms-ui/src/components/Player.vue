@@ -41,17 +41,15 @@ export default {
       }
       const el = document.getElementsByClassName('player-container')[0]
       el.className = el.className.replace(' horizontal', '')
-      if (window.innerWidth > window.innerHeight) {
-        options.height = window.innerHeight - 50
+      if (window.innerWidth > (window.innerHeight * 1.7)) {
+        options.height = window.innerHeight - 100
         el.className = el.className + ' vertical'
       } else {
         options.width = window.innerWidth - 50
         el.className = el.className + ' horizontal'
       }
       this.playerFrame = new Player('player', options)
-      if (seconds) {
-        this.playerFrame.setCurrentTime(seconds)
-      }
+      if (seconds) this.playerFrame.setCurrentTime(seconds)
       this.playerFrame.play()
     }
   }

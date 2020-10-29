@@ -12,27 +12,23 @@
 
     <h3>My videos</h3>
     <ul class="video-list-container" v-bind:class="{ 'locked': selectedVideo}">
-        <li class="video-list" v-for="videos in youtubeVideos" v-bind:key="videos.snippet.thumbnails.standard.url">
-        <p class="title">{{videos.snippet.title}}</p>
-        <div class="video-container" v-on:click="selectVideo(post)">
-              <img :src="videos.snippet.thumbnails.standard.url" alt="">
-              <div class="overlay"> <p> {{videos.snippet.description}} </p> </div>
-              <i class="play material-icons">play_circle_outline</i>
-        </div>
-      </li>
-      <li class="video-list" v-for="post in posts" v-bind:key="post.uri">
-        <p class="title">{{post.name}}</p>
-        <div class="video-container" v-on:click="selectVideo(post)">
-          <img :src="post.pictures.sizes[2].link" alt="">
-          <div class="overlay"> <p> {{post.description}} </p> </div>
-          <i class="play material-icons">play_circle_outline</i>
-        </div>
-      </li>
+        <li class="video-list" v-for="video in videos" v-bind:key="video.uri">
+          <p class="title">{{video.name}}</p>
+          <div class="video-container" v-on:click="selectVideo(video)">
+            <img v-if="video.type === 'vimeo'" :src="video.pictures.sizes[2].link" alt="">
+            <img v-if="video.type === 'youtube'" :src="video.pictures.medium.url" alt="">
+            <div class="overlay"> <p> {{video.description}} </p> </div>
+            <i class="play material-icons">play_circle_outline</i>
+          </div>
+        </li>
     </ul>
 
     <!-- video player -->
-    <div class="player-container" v-if="selectedVideo" v-on:click="closeVideo()">
-      <Player v-if="selectedVideo" v-bind:name="selectedVideo"></Player>
+    <div class="player-container" v-if="selectedVideo && type === 'vimeo'" v-on:click="closeVideo()">
+      <Player v-if="type === 'vimeo'" v-bind:name="selectedVideo"></Player>
+    </div>
+    <div id="yt-player-container" v-on:click="closeYTVideo()">
+      <div id="player"></div>
     </div>
   </div>
 </template>
@@ -53,12 +49,13 @@ export default {
   },
   data () {
     return {
+      type: '',
       isLoading: false,
       hasError: false,
-      showPosts: true,
+      showVideos: true,
       selectedVideo: null,
-      posts: [],
-      youtubeVideos: [],
+      videos: [],
+      YT: null,
       image: '@/assets/logo.png'
     }
   },
@@ -69,17 +66,11 @@ export default {
     async fetch () {
       this.isLoading = true
       disableBodyScroll(document.body)
-      this.loadVimeoVids()
-      videoServices.getYoutubeVideos().then((val) => {
-        this.youtubeVideos = val.data.items
-      })
-    },
-    loadVimeoVids () {
-      videoServices.getVimeoVideos().then((val) => {
-        if (val && val.data && val.data.data) {
+      videoServices.getVideos().then((val) => {
+        if (val && val.data) {
           setTimeout(() => {
-            this.showPosts = true
-            this.posts = val.data.data
+            this.showVideos = true
+            this.videos = val.data
             setTimeout(() => {
               enableBodyScroll(document.body)
               this.isLoading = false
@@ -93,12 +84,80 @@ export default {
       })
     },
     selectVideo (post) {
-      this.selectedVideo = post.uri.split('/')[2]
+      if (post.type === 'vimeo') this.selectedVideo = post.uri.split('/')[2]
+      if (post.type === 'youtube') this.playYoutube(post.id)
+      this.type = post.type
       disableBodyScroll(document.body)
     },
     closeVideo () {
       this.selectedVideo = null
       enableBodyScroll(document.body)
+      this.type = ''
+    },
+    playYoutube (id) {
+      if (!this.YT) {
+        var tag = document.createElement('script')
+        tag.src = 'https://www.youtube.com/iframe_api'
+        var firstScriptTag = document.getElementsByTagName('script')[0]
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+
+        window.onYouTubeIframeAPIReady = () => {
+          // eslint-disable-next-line no-undef
+          this.YT = YT
+          this.onYouTubeIframeAPIReadyF(this.YT, this.onPlayerStateChange, this.onPlayerReady, id)
+        }
+      } else {
+        this.onYouTubeIframeAPIReadyF(this.YT, this.onPlayerStateChange, this.onPlayerReady, id)
+      }
+
+      window.addEventListener('orientationchange', (event) => {
+        if (this.type === 'youtube') {
+          setTimeout(() => {
+            const { height, width } = this.getHeightAndWidth()
+            console.log(height, width)
+            this.player.setSize(width, height)
+          }, 100)
+        }
+      })
+    },
+    onYouTubeIframeAPIReadyF (YT, onPlayerStateChange, onPlayerReady, id) {
+      const el = document.getElementById('yt-player-container')
+      el.className = 'playing'
+
+      const { height, width } = this.getHeightAndWidth()
+      this.player = new YT.Player('player', {
+        height: height,
+        width: width,
+        videoId: id,
+        events: {
+          'onReady': onPlayerReady
+        }
+      })
+    },
+    // 4. The API will call this function when the video player is ready.
+    onPlayerReady (event) {
+      event.target.playVideo()
+    },
+
+    closeYTVideo () {
+      enableBodyScroll(document.body)
+      const el = document.getElementById('yt-player-container')
+      el.className = ''
+      this.selectedVideo = null
+      this.player.destroy()
+    },
+    getHeightAndWidth () {
+      let height = 0
+      let width = 0
+      if (window.innerWidth > (window.innerHeight * 1.7)) {
+        height = window.innerHeight - 150
+        width = height * 1.7
+      } else {
+        console.log(window.innerWidth)
+        width = window.innerWidth - 150
+        height = width / 1.7
+      }
+      return { height, width }
     }
   }
 }
@@ -134,6 +193,10 @@ a {
 p {
   text-align: left;
   margin: 15px;
+}
+
+.home-container {
+  padding-bottom: 150px;
 }
 
 .video-container {
@@ -214,6 +277,9 @@ p {
   background-color: rgba(15, 15, 15, .97);
   z-index: 1000;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .horizontal {
   padding: 15% 25px;
@@ -252,6 +318,18 @@ p {
   -moz-transition: opacity 150ms ease-out;
   -o-transition: opacity 150ms ease-out;
   transition: opacity 150ms ease-out;
+}
+.playing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 15, .97);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 750px) {

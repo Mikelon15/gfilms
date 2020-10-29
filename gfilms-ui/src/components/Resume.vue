@@ -1,5 +1,5 @@
 <template>
-  <div class="resume-container">
+  <div id="resume-container" class="resume-container" v-html="resume">
     <table>
         <tr>
             <td></td>
@@ -40,20 +40,18 @@
 </template>
 
 <script>
+import videoServices from '../services/videoServices'
+
 export default {
   name: 'Resume',
-  components: {
-  },
-  props: {
-  },
   data () {
     return {
-      isLoading: false
+      isLoading: false,
+      resume: ''
     }
   },
   created () {
-  },
-  methods: {
+    videoServices.getResume().then((val) => { this.resume = val.data.value })
   }
 }
 </script>
